@@ -24,7 +24,7 @@ python tools/update_freq.py --corpusPath data/corpus --outputPath data/models
 
 ps: the file "SynthText_unicode_version/data/models/colors_new.cp" could not be update, because this is **Color-model (foreground/background text color model), learnt from the IIIT-5K word dataset**. the file is used to render the text when the program choose an **foreground string** from text corpus, then put the text onto a rander **color background**, so it's ok to use the file.   
 ## 3 - if you want to add new background image
-  ** 3.1 you should get the images' depth  **
+  **3.1 you should get the images' depth**
 >    3.1.1 put the new background images in "SynthText_unicode_version/data/bgi/", then   
 ```
 cd SynthText_unicode_version/tools/depthPrediction_tensorflow/code
@@ -48,4 +48,4 @@ python predict.py --model_path ../ckpt/NYU_FCRN.ckpt --image_paths ../../../data
 ```
 file "SynthText_unicode_version/tools/depthPrediction_tensorflow/depth/depth.h5" is the depth prediction of this new background images  
 
- ** 3.2 you should get the images' segmentation masks **
+ **3.2 you should get the images' segmentation masks**
