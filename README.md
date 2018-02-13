@@ -6,7 +6,7 @@ this project can run on windows and linux environment.
 ## requirement
 python 3.5+   
 pygame  
-tensorflow 1.4.0+
+tensorflow 1.4.0+   
 cv2 3.2.0+
 
 
