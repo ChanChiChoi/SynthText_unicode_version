@@ -50,7 +50,9 @@ then run the command:
 python predict.py --model_path ../ckpt/NYU_FCRN.ckpt --image_paths ../../../data/bgi --img_type jpg --output_path ../depth
 ```
 file "SynthText_unicode_version/tools/depthPrediction_tensorflow/depth/depth.h5" is the depth prediction of this new background images  
-<img src="data/bgi/bgi1.jpg" height = "252" alt="bgi1" /> ![](tools/depthPrediction_tensorflow/depth/bgi1.png)  
-<center/>origin image of big1.jpg and depth prediction of big1.png </center>   
+<img src="data/bgi/bgi1.jpg" height = "252" alt="bgi1" align=center />  
+<center/>**origin image of bgi1.jpg**</center>  
+<center/> ![](tools/depthPrediction_tensorflow/depth/bgi1.png)</center>    
+<center/>**depth prediction of big1.png**, because depth prediction program will resize the image into (228,324), so it partly looks unlike the origin image </center>   
 
  **3.2 get the images' segmentation masks**
