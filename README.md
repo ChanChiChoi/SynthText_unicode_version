@@ -22,7 +22,7 @@ python tools/update_freq.py --corpusPath data/corpus --outputPath data/models
  python tools/font_pixel2pt.py --fontDirPath data/fonts --outputPath data/models
 ```
 
-ps: the file "SynthText_unicode_version/data/models/colors_new.cp" could not be update, because this is **Color-model (foreground/background text color model), learnt from the IIIT-5K word dataset**. the file is used to render the text when the program choose an **foreground string** from text corpus, then put the text onto a rander **color background**, so it's ok to use the file.   
+PS: the file "SynthText_unicode_version/data/models/colors_new.cp" could not be update, because this is **Color-model (foreground/background text color model), learnt from the IIIT-5K word dataset**. the file is used to render the text when the program choose an **foreground string** from text corpus, then put the text onto a rander **color background**, so it's ok to use the file.   
 ## 3 - if you want to add new background image
   **3.1 get the images' depth**   
 put the new background images in "SynthText_unicode_version/data/bgi/", then   
@@ -53,6 +53,7 @@ file "SynthText_unicode_version/tools/depthPrediction_tensorflow/depth/depth.h5"
 <div align=center><img src="data/bgi/bgi1.jpg" height = "252" alt="bgi1" align=center /></div>        
 <div align=center>origin image of bgi1.jpg</div>  
 <div align=center><img src="tools/depthPrediction_tensorflow/depth/bgi1.png" /></div>    
-<div align=center>depth prediction of big1.png, because depth prediction program will resize the image into (228,324), so it partly looks unlike the origin image </div>   
+<div align=center>depth prediction of big1.png </div>   
+**PS:because depth prediction program will resize the image into (228,324), so it partly looks unlike the origin image**
 
  **3.2 get the images' segmentation masks**
