@@ -55,6 +55,6 @@ file "SynthText_unicode_version/tools/depthPrediction_tensorflow/depth/depth.h5"
 <div align=center><img src="tools/depthPrediction_tensorflow/depth/bgi1.png" /></div>    
 <div align=center>depth prediction of big1.png </div>   
 
- **PS:because depth prediction program will resize the image into (228,324), so it partly looks unlike the origin image**
+ **PS:because depth prediction program will resize the image into (height=228,width=304), so it partly looks unlike the origin image**
 
  **3.2 get the images' segmentation masks**
