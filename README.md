@@ -51,8 +51,8 @@ python predict.py --model_path ../ckpt/NYU_FCRN.ckpt --image_paths ../../../data
 ```
 file "SynthText_unicode_version/tools/depthPrediction_tensorflow/depth/depth.h5" is the depth prediction of this new background images  
 <div align=center><img src="data/bgi/bgi1.jpg" height = "252" alt="bgi1" align=center /></div>        
-<div align=center>**origin image of bgi1.jpg**</div>  
-<div align=center>![](tools/depthPrediction_tensorflow/depth/bgi1.png)</div>    
-<div align=center>**depth prediction of big1.png**, because depth prediction program will resize the image into (228,324), so it partly looks unlike the origin image </div>   
+<div align=center>origin image of bgi1.jpg</div>  
+<div align=center><img src="tools/depthPrediction_tensorflow/depth/bgi1.png" /></div>    
+<div align=center>depth prediction of big1.png, because depth prediction program will resize the image into (228,324), so it partly looks unlike the origin image </div>   
 
  **3.2 get the images' segmentation masks**
