@@ -7,6 +7,7 @@ this project can run on windows and linux environment.
 python 3.5+   
 pygame  
 tensorflow 1.4.0+
+cv2 3.2.0+
 
 
 ## 1 - if you want to use your text corpus
