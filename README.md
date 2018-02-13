@@ -47,5 +47,5 @@ then run the command:
 python predict.py --model_path ../ckpt/NYU_FCRN.ckpt --image_paths ../../../data/bgi --img_type jpg --output_path ../depth
 ```
 file "SynthText_unicode_version/tools/depthPrediction_tensorflow/depth/depth.h5" is the depth prediction of this new background images  
-
+![](data/bgi/bgi1.jpg) ![](tools/depthPrediction_tensorflow/depth/bgi1.png)  
  ** 3.2 you should get the images' segmentation masks **
