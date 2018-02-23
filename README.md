@@ -58,5 +58,5 @@ file "SynthText_unicode_version/tools/depthPrediction_tensorflow/depth/depth.h5"
 
  **PS:because depth prediction program will resize the image into (height=228,width=304), so it partly looks unlike the origin image**
 
- **3.2 get the images' segmentation masks**
+ **3.2 get the images' segmentation masks**   
 the origin image should be splited into some blocks by edge lines, each block is a region. the image mask has blocks and lines, lines have value 0, each block has it's order value, e.g. from left to right, from up to down, the first region has value 1, the second region has value 2,...
